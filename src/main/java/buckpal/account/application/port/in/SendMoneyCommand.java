@@ -8,7 +8,7 @@ import lombok.EqualsAndHashCode;
 import lombok.Value;
 
 @Value
-@EqualsAndHashCode
+@EqualsAndHashCode(callSuper=false)
 public class SendMoneyCommand extends SelfValidating<SendMoneyCommand> {
     @NotNull
     private final AccountId sourceAccountId;
