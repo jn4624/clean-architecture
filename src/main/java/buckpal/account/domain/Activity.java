@@ -17,11 +17,13 @@ public class Activity {
     private final LocalDateTime timestamp;
     private final Money money;
 
-    public Activity(Account.AccountId ownerAccountId,
-                    Account.AccountId sourceAccountId,
-                    Account.AccountId targetAccountId,
-                    LocalDateTime timestamp,
-                    Money money) {
+    public Activity(
+            Account.AccountId ownerAccountId,
+            Account.AccountId sourceAccountId,
+            Account.AccountId targetAccountId,
+            LocalDateTime timestamp,
+            Money money
+    ) {
         this.id = null;
         this.ownerAccountId = ownerAccountId;
         this.sourceAccountId = sourceAccountId;

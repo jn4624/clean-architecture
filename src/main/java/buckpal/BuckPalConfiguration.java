@@ -1,4 +1,4 @@
-package buckpal.common;
+package buckpal;
 
 import buckpal.account.application.service.MoneyTransferProperties;
 import buckpal.account.domain.Money;
